@@ -1,0 +1,11 @@
+[project]
+name = "dash-app-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dash>=3.0.1",
+    "dash-bootstrap-components>=2.0.0",
+    "pandas>=2.2.3",
+]
