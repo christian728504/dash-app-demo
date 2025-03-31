@@ -50,5 +50,4 @@ def create_table(df):
         )
     ]
 
-if __name__ == "__main__":
-    server = app.run(debug=True)
+server = app.server 
