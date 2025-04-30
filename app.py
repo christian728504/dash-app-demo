@@ -3,7 +3,6 @@ from dash import html, dash_table
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 import pandas as pd
-import webbrowser
 from threading import Timer
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
