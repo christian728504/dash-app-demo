@@ -50,3 +50,7 @@ def create_table(df):
     ]
 
 server = app.server 
+
+@server.route('/health')
+def health_check():
+    return Response("Healthy", status=200)
